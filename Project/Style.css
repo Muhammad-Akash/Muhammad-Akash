@@ -1,0 +1,272 @@
+
+.header {
+    background-color: #1E1E1E;
+    text-align: center;
+    width: auto;
+    height: 70px;
+}
+
+.font {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 90px;
+
+
+
+}
+
+
+.font2 {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.font3 {
+    font-family: Roboto;
+    color: #969696;
+    line-height: 15px;
+
+}
+
+.font4 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav1 {
+    position: relative;
+
+    bottom: 20px;
+    opacity: .8;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+
+    ul{
+        list-style:none;
+    }
+
+.photo-1 {
+    position: page;
+
+
+
+}
+.photo-2 {
+    position: relative;
+}
+
+
+
+
+@media(min-width:768px) {
+    .container1 {
+        display: flex;
+
+        justify-content: space-around;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .container2 {
+
+
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: space-around;
+        align-content: center;
+    }
+    
+
+    .div img{
+
+      height: auto;
+      width:540px;
+      padding-top: 30px;
+
+
+
+
+    }
+
+
+}
+
+
+.containerfortext {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+
+
+
+
+
+
+
+.carousel-control-prev,
+.carousel-control-next{
+
+      bottom: 50%;
+      margin-top:350px ;
+      margin-left:490px ;
+      margin-right:490px ;
+
+
+}
+
+.sticky1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: -15px;
+    padding: 0px;
+    font-size: 20px;
+    z-index: 2;
+  }
+
+  .abcd{
+    position: relative;
+    text-align: center;
+    height: auto;
+    align-content: center;
+    
+    
+  }
+
+.abcd2{
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  transform: translate(-40%, -40%);
+}
+
+.image1{
+
+
+position: relative;
+  float: left;
+  left: 20.9%;
+
+
+
+}
+
+.image2{
+
+
+  float: left;
+  width: 25%;
+
+  padding-top: 20px;
+
+  position: relative;
+  left: 22.9%;
+
+
+}
+
+
+
+.other{
+
+
+  text-align: center;
+  clear: both;
+  padding-top: 20px;
+}
+
+
+
+  body {
+
+    background:linear-gradient(to left bottom, #e9e9e9, #ebebeb, #d6d6d6, #b1b1b1, #505050);
+    margin: 0;
+    font-family: Arial;
+  }
+
+
+
+
+.border1 {
+
+
+  background: rgba(123, 129, 123, 0.3)
+}
+
+
+.container{
+      
+      
+      margin-left: 20%;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 100%; 
+     padding: 0 4px; 
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 4px; 
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
+ .container69{
+    padding-top: 4%;
+ }
+
+ footer{
+  margin-left:10px;
+  margin-right:10px;
+  
+ }
